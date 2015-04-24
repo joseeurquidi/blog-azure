@@ -1,5 +1,4 @@
 lock '3.4.0'
-require 'capistrano-file_db'
 # application name and the github repository
 set :application, 'blog_app'
 set :repo_url, 'git@github.com:joseeurquidi/blog-azure.git'
