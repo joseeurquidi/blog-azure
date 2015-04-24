@@ -1,6 +1,6 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
-set :application, 'blog_app'
+set :application, 'blog_azure'
 set :repo_url, 'git@github.com:joseeurquidi/blog-azure.git'
 
 # describe the rbenv environment we are deploying into
