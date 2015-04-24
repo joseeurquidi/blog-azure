@@ -42,7 +42,8 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rbenv'
   gem 'capistrano-unicorn-nginx'
-  gem 'capistrano-postgresql'
+  gem 'capistrano-file_db'
+  #gem 'capistrano-postgresql'
 end
 
 group :development, :test do
